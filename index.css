@@ -351,4 +351,47 @@ body.claro .plato h3 {
         max-width:320px;
     }
 
+}/* CONTACTO */
+
+#contacto{
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#contacto h2{
+    text-align: center;
+}
+
+/* FORMULARIO */
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario input,
+#formulario textarea{
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#boton{
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* ERRORES */
+
+.error{
+    color: red;
+}
+
+.oculto{
+    display: none;
 }
